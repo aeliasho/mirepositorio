@@ -1,0 +1,65 @@
+/**Comineza CSS de CONTACTO**/
+
+.pcontacto {
+    margin: 10px 250px 0 250px ;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(4, 4, 4);
+    
+}
+
+/**css para formulario**/
+
+.formulario {
+    background-color: white;
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    backdrop-filter: blur(2px);
+    background-color: rgb(205, 242, 40);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+-webkit-box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+-moz-box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+}
+
+.formulario-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_input {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(129, 124, 124);
+    border-radius: 5px;
+}
+
+.formulario_mensaje {
+    resize: none;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.formulario_rta {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .pcontacto {
+        font-size: 14px;
+    }
+}

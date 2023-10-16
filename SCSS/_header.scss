@@ -1,0 +1,32 @@
+/**Comienza header INDEX**/
+
+header {
+    background-color: rgb(5, 5, 5);
+}
+.logotexto {
+    color: white;
+}
+.navegacionprincipal {
+    text-align:right;
+    margin-right: 0px;
+}
+.logo2 {
+    text-align: left;
+    margin-left: 10px;
+}
+.logobanner {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    margin-top: 12px;
+    border-radius: 100px;
+}
+.listado1 li {
+    font-size: 18px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 30px;
+}

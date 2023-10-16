@@ -1,0 +1,35 @@
+/**CSS para PRODUCTOS**/
+
+/**Grid prductos**/
+.containerproductos{
+    display: grid;
+    margin-top: 80px;
+    justify-content: center;
+    grid-template-columns: 50 80px 200px;
+    grid-template-rows: 750px 300px 80px;
+    grid-auto-rows: minmax(125px, auto);
+    grid-template-areas: 
+    "productosdescripcion"
+    "nombreproducto"
+    "imagen1"
+
+}
+
+.imagenproducto {
+    grid-area: bio_img;
+    border-radius: 10px;
+    width: 300px; 
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+-webkit-box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+-moz-box-shadow: 4px 9px 35px -4px rgba(0,0,0,0.77);
+}
+
+.nombreproducto {
+    grid-area: nombreproducto;
+    margin: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
